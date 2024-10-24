@@ -1,0 +1,83 @@
+
+
+Hi Good Morning, I’m Rajendra Lokhande. I’ve been working as a backend developer at Advanced Infoscan Pvt. Ltd. since November 2023, where I work in the logistics domain with our client, Expeditor. Before this, I was with Tata AIA from April 2021 to October 2023, where I focused on backend systems and server-side work. Earlier in my career, I worked at Bajaj Allianz from January 2019 to November 2020, which is where I started developing my skills in backend development. Through these experiences, I’ve gained a solid understanding of backend architecture, databases, and optimizing performance.
+  ------------------------------------------------------------------------------
+ROLES AND RESPONSIBILITIES:
+I have been involved in implementing, and maintaining the backend  logic.
+1.	Requirement gathering and analysis
+2.	Developing and integrating the RESTful APIs and ensuring communication between diff. services and database using Spring Boot & spring data JPA
+3.	Working on the escalations raised by the client and coming up with the solution considering the guidelines given by product owner.
+4.	Writing unit test cases and collaborating with QA engineers to ensure comprehensive test coverage and timely bug fixes. 
+6.	Collaborated with cross-functional teams to deliver high-quality software solutions on time.
+---------------------------------------------------------------------------------------------------	
+TechStack:
+Java , Spring-Boot, Spring Data JPA as ORM tool, MySQL as database, Git for version controlling, Maven for packaging , For ticketing purpose we have used Jira tool, also used features of JAVA 8 such as lambdas,streams apis, optional, functional inetrfaces with default methods and static methods, method references etc. 
+THATS ALL ABOUT ME.
+-------------------------------------------------------------------------
+Project 3: Logestic
+C L I E N T -Yodel
+Yodel is a major delivery company in the UK, providing services for both
+business-to-business (B2B) and business-to-consumer (B2C) orders. It partners with many
+leading retailers in the country to ensure efficient delivery of their products.
+
+   •	Order Management: ( I was working on this module )
+   •	Carrier Management, Vehicle Management(Cargo Consolidation and  Containerization)
+   •	Port Operations
+   •	Customs Clearance
+   •	Vessel Selection and Chartering
+   •	Routing and Scheduling:
+   •	Risk Management
+   •	Monitoring and 
+   
+       i am working on Order Management: ( I was working on this module )   
+       Project microservices:-
+          Freight Booking ( I was working on this microservice )
+          Entities ;
+           * Shipment( Contains details such as origin, destination, cargo information, and special requirements.)
+               1. Ship Management Service: This microservice allows port administrators to
+                  manage and monitor the available ships, including their capacity and schedules. It
+                  maintains an up-to-date list of ships in the system.
+           * Carrier – (Contains information about the carrier's services, capabilities, and contact details.)
+           * Booking – (Contains details such as the shipment ID, carrier ID, pickup and delivery dates, and any special instructions.)
+           * Tracking – (Contains details such as the current location of the cargo, expected delivery time, and any status updates.)
+               2. Tracking Service: Provides real-time tracking of ships and their cargo
+                   We use AIS (Automatic Identification System)data, which is commonly
+                   used for tracking ships , which has two sources like
+                    AIS Receivers: Deploy AIS receivers or sensors in areas where you want
+                    to track ships.
+                    AIS Data Providers: APIs provided by AIS data providers, routes, and other relevant data to monitor
+                   the location and progress of each ship.
+           *  Cost Calculation Service: Calculates the transportation cost based on
+               livestock type, route, and any additional charges. This service is essential for
+               estimating the cost of each shipment.
+           * Customer – (Contains information about the customer's contact details, billing address, and any preferences or requirements.)
+           * Location - (Contains details such as the address, coordinates, and any relevant contact information.)
+            
+           * chalanges: like implmenting design pattern, also when differnet microservises communicate each other use feignClient effevtively implimenting                           circuit design patern when service is unavailable, batch procesing using multithreading . 
+----------------------------------------------------------------------------------------------------------------------------------------------
+PROJECT 2 :
+Client : Aviva Canada
+Description : Aviva Canada is one of the leading property and casualty insurance groups in the country, providing home, automobile, lifestyle, and business insurance to 2.5 million customers. As a subsidiary of UK-based Aviva plc, Aviva Canada has more than 4,000 employees focused on creating a sustainable future for our people, our customers, our communities and our planet. In 2021, Aviva plc announced Aviva’s global ambition to become a net zero carbon emissions company by 2040.
+• Developed classes and logic for web applications, incorporating Hibernate for persistence.
+• Development of Restful APIs, ensuring seamless communication between different services.
+using Spring Boot, Spring Data JPA.
+• Implemented fundamental Java concepts such as Object-Oriented Programming (OOP) principles and
+collection frameworks.
+• Conducted unit testing and promptly resolved bugs to maintain code quality.
+• Conduct Design and code reviews to make sure they are in line with the Business requirement.
+• Actively engaged in daily stand-up meetings (Scrum) and requirement review sessions, collaborating
+with the team to analyse requirements and provide valuable technical insights.
+
+-----------------------------------------------------
+PROJECT 1 :
+Client: Vellore Anergy
+Description: Vellore Energy Technologist Company Private Limited (VETCPL) is a Private Limited Indian Non-Government Company incorporated in India on 17 December 2007 and has a history of 16 years and six months. Its registered office is in Vellore, Tamil Nadu, India.
+• Integrated fundamental Java concepts, including OOPs principles, collections, and exception handling,
+as a cornerstone of the project's architecture.
+• Build Rest API Endpoints with all layers using Spring Boot.
+• Effortlessly active in development of Rest API’s.
+• Used Spring Data JPA and defined persistence classes to persist the data into Database.
+• Involved in Code review, Test results review a documentation.
+• Active participation in daily stand-up meetings (Scrum) and requirement review meetings
+collaborating with the team to analyse requirements and provide technical insights
+------------------------------------------------------------

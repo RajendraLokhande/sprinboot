@@ -1,0 +1,116 @@
+
+
+Hi Good Morning, I’m Rajendra Lokhande. I’ve been working as a backend developer at Advanced Infoscan Pvt. Ltd. since November 2023, where I work in the logistics domain with our client, Expeditor. Before this, I was with Tata AIA from April 2021 to October 2023, where I focused on backend systems and server-side work. Earlier in my career, I worked at Bajaj Allianz from January 2019 to November 2020, which is where I started developing my skills in backend development. Through these experiences, I’ve gained a solid understanding of backend architecture, databases, and optimizing performance.
+  ------------------------------------------------------------------------------
+ROLES AND RESPONSIBILITIES:
+I have been involved in implementing, and maintaining the backend  logic.
+1.	Requirement gathering and analysis
+2.	Developing and integrating the RESTful APIs and ensuring communication between diff. services and database using Spring Boot & spring data JPA
+3.	Working on the escalations raised by the client and coming up with the solution considering the guidelines given by product owner.
+4.	Writing unit test cases and collaborating with QA engineers to ensure comprehensive test coverage and timely bug fixes. 
+6.	Collaborated with cross-functional teams to deliver high-quality software solutions on time.
+---------------------------------------------------------------------------------------------------	
+TechStack:
+Java , Spring-Boot, Spring Data JPA as ORM tool, MySQL as database, Git for version controlling, Maven for packaging , For ticketing purpose we have used Jira tool, also used features of JAVA 8 such as lambdas,streams apis, optional, functional inetrfaces with default methods and static methods, method references etc. 
+THATS ALL ABOUT ME.
+-------------------------------------------------------------------------
+Project 3: Logestic
+C L I E N T -Yodel
+Yodel is a major delivery company in the UK, providing services for both
+business-to-business (B2B) and business-to-consumer (B2C) orders. It partners with many
+leading retailers in the country to ensure efficient delivery of their products.
+
+   •	Order Management: ( I was working on this module )
+   •	Carrier Management, Vehicle Management(Cargo Consolidation and  Containerization)
+   •	Port Operations
+   •	Customs Clearance
+   •	Vessel Selection and Chartering
+   •	Routing and Scheduling:
+   •	Risk Management
+   •	Monitoring and 
+   
+       i am working on Order Management: ( I was working on this module )   
+       Project microservices:-
+          Freight Booking ( I was working on this microservice )
+          Entities ;
+           * Shipment( Contains details such as origin, destination, cargo information, and special requirements.)
+               1. Ship Management Service: This microservice allows port administrators to
+                  manage and monitor the available ships, including their capacity and schedules. It
+                  maintains an up-to-date list of ships in the system.
+           * Carrier – (Contains information about the carrier's services, capabilities, and contact details.)
+           * Booking – (Contains details such as the shipment ID, carrier ID, pickup and delivery dates, and any special instructions.)
+           * Tracking – (Contains details such as the current location of the cargo, expected delivery time, and any status updates.)
+               2. Tracking Service: Provides real-time tracking of ships and their cargo
+                   We use AIS (Automatic Identification System)data, which is commonly
+                   used for tracking ships , which has two sources like
+                    AIS Receivers: Deploy AIS receivers or sensors in areas where you want
+                    to track ships.
+                    AIS Data Providers: APIs provided by AIS data providers, routes, and other relevant data to monitor
+                   the location and progress of each ship.
+           *  Cost Calculation Service: Calculates the transportation cost based on
+               livestock type, route, and any additional charges. This service is essential for
+               estimating the cost of each shipment.
+           * Customer – (Contains information about the customer's contact details, billing address, and any preferences or requirements.)
+           * Location - (Contains details such as the address, coordinates, and any relevant contact information.)
+            
+           * chalanges: like implmenting design pattern, also when differnet microservises communicate each other use feignClient effevtively implimenting                           circuit design patern when service is unavailable, batch procesing using multithreading . 
+----------------------------------------------------------------------------------------------------------------------------------------------
+project 2: Retail
+C L I E N T -Edcon
+D E S C R I P T I O N - Edcon Limited was a retail company based in Johannesburg, South Africa.
+Its subsidiaries included Edgars, a department store with 203 branches.
+
+Complete Your Draft for Coupen and Loyalty Point Terms and Conditions
+-	We have created 3 APIs to implement this feature namely @PostMapping("/api/coupen") to save the draft, 
+	@GetMapping("/{id}") to get the saved draft and @PutMapping("/api/coupen/{id}") to update the existing draft 
+	i.e. (auto-save).
+-	Our frontend application triggers an auto-save process at regular intervals or whenever there's a significant change.
+-	Each time the auto-save is triggered, our frontend application sends an HTTP PUT request to the "/api/coupen/{id}" 
+	endpoint with the updated draft content. The {id} parameter represents the draft's unique identifier.
+
+    
+How Loyalty points are get calculates ?
+
+	Suppose if the customer bought a fridge and the warranty & guarantee is expired and
+	the customer wants service for that ,then he or she can pay the service cost with the
+	loyalty points they have .
+	The Loyaly points are Calculated on the payble amount of customer. this payble amount we get from the Billing service 
+	for that we have loyalty point interface  have method addLoyalty points as we create the Loyalty point impl
+	class in that class we have field that mebember id ,loyalty point ,type of loayty point ,expiry date,active .
+
+      Endpoints:
+
+	->we have Create an endpoint(like @post(/{customerId}/service)) to initiate a service request
+	, where the customer specifies the product (e.g., fridge) for which they need service.
+	->Within this endpoint, you'll validate the warranty/guarantee status and loyalty points.
+	->If the conditions are met, deduct the required loyalty points and update the service request status.
+	If not, return an error message.
+
+this loyaty point object is use for transfer of the data 
+
+Customer have Field that contain the active CustomerLoyaty point Object field which contains the activeLoyalty Point queue 
+and Inactive Loyalty point queue.  In Those queue conatins Loyaty point object date of expiry and no of loyalty points.
+once scheduler start at night it remove the expired loyalty points based on the date for each customer also perform 
+loyalty point inactive to active transformation.
+
+
+
+
+-----------------------------------------------------
+project 1 : health ensurance
+client - Amzor Healthcare
+Description -  Amzor Healthcare is dedicated to the ailing mankind and cares for the life,
+thus, it is top Pharmaceutical Company in Chandigarh. We have more than 300
+pharma products for PCD Pharma Franchise.
+
+I have done the aggregation and processing of requests for insurance quotations. Calculating the policy Quotation price based on user-defined criteria e.g. insurance duration, coverage amount, customer location, lifestyle habits etc. Scenario modeling and what-if analysis for various policy prices Automated quote generation and submission to customers on multiple channels(EMAIL etc.) .
+
+User Journey:
+
+User Management: "The user journey begins with secure user registration or login. Relevant user data, including demographics and medical history, is retrieved from a dedicated, User Management Service utilizing secure data access protocols."
+
+Plan Selection: "Users can then browse through various health insurance plans offered by the Health Plan Management Service. Each plan details its coverage types (inpatient, outpatient, preventive care) and cost-sharing mechanisms (deductibles and co-pays)
+
+
+
+------------------------------------------------------------
